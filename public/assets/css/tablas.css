@@ -1,0 +1,116 @@
+/* Estilo DataTable */
+.table-responsive {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.contenedor-tabla {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.table td {
+    vertical-align: middle;
+}
+.btn-editar {
+    background-color: #868890;
+    color: #fff;
+}
+.btn-editar:hover {
+    background-color: #6c6d75 !important;
+}
+.btn-editar:active {
+    background-color: #595a61 !important;
+}
+.btn-editar:focus {
+    background-color: #595a61 !important;
+}
+.btn-borrar {
+    background-color: #B60F0F;
+    color: #fff;
+}
+.btn-borrar:hover {
+    background-color: #930c0c !important;
+}
+.btn-borrar:active {
+    background-color: #7a0a0a !important;
+}
+.btn-borrar:focus {
+    background-color: #7a0a0a !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    font-weight: normal;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #73D0B9;
+    text-decoration: underline;
+    background-color: #f8f9fa;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    font-weight: normal;
+    color: #fff;
+    background-color: #73D0B9;
+    border-radius: 4px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff;
+    background-color: #6CBEAA;
+}
+.dataTables_filter {
+    margin-bottom: 5px;
+    text-align: right;
+}
+.dataTables_filter label {
+    font-size: 14px;
+    color: #666;
+    margin-right: 8px;
+}
+.dataTables_filter input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #333;
+    transition: all 0.3s ease;
+}
+.dataTables_filter input:focus {
+    border-color: #73D0B9;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+.dataTables_length {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #555;
+}
+.dataTables_length label {
+    margin-right: 8px;
+    font-weight: 500;
+    color: #333;
+}
+.dataTables_length select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.dataTables_length select:hover {
+    border-color: #73D0B9;
+}
+.dataTables_length select:focus {
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: #797979;
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: #f8f9fa;
+}
+.login-container,
+.register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Colores personalizados para el botón */
+:root {
+    --color-primario: rgb(115, 208, 185);
+    --color-primario-hover: rgb(108, 190, 170);
+}
+
+.btn-custom {
+    color: white;
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+}
+
+.btn-custom:hover {
+    color: white;
+    background-color: var(--color-primario-hover);
+    border-color: var(--color-primario-hover);
+}
+
+.register-link {
+    color: var(--color-primario-hover);
+    text-decoration: none;
+}
+
+.register-link:hover {
+    color: var(--color-primario-hover);
+    text-decoration: underline;
+}
