@@ -128,8 +128,8 @@ O bien, puedes registrarte libremente desde la pantalla de registro.
 
 ## Autor
 
-**Nombre:** David Ferrer Moya
-**Email:** davidferrermoya@gmail.com
+**Nombre:** David Ferrer Moya  
+**Email:** davidferrermoya@gmail.com  
 
 ---
 
