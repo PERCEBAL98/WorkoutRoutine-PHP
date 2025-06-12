@@ -2,10 +2,8 @@
 
 **WorkoutRoutine** es una aplicación web desarrollada en PHP (CodeIgniter 4) que permite a cualquier usuario crear, gestionar y realizar rutinas de entrenamiento. Está diseñada tanto para principiantes como para usuarios avanzados del mundo del fitness.
 
----
-
 ## Características principales
-
+---
 - Consulta de ejercicios con filtros avanzados
 - Generador automático de rutinas basado en parámetros personalizados
 - Creador de rutinas personalizadas
